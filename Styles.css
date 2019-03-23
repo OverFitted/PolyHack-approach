@@ -1,5 +1,11 @@
 html {
-    background-color: grey;
+    background-color: white;
     background-image: url(polytech.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
+}
+
+button {
+    background-color: Transparent;
+    border: none;
 }
