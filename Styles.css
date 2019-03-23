@@ -5,15 +5,6 @@ html {
     background-size: 1200px 600px;
     margin-left: 50px;
 }
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-   html {
-     background-color: white;
-     background-image: url(polytech.jpg);
-     background-repeat: no-repeat;
-     background-size: 1800px 900px;
-     margin-left: 50px;
-}
-}
 
 button {
     background-color: Transparent;
@@ -25,6 +16,39 @@ img {
   width: 100%;
   background-color: Transparent;
   border: none;
+}
+
+p {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+progress {
+  margin-left: 10px;
+  margin-top: -20px;
+  width: 270px;
+}
+
+footer {
+
+  background-color: white;
+  min-width: 500px;
+  min-height: 1px;
+  margin-top: 550px;
+  margin-left: -50px;
+  background-color: white;
+  border: 3px solid grey;
+}
+
+#userName {
+  margin-left: 900px;
+  margin-top: -124px;
+  height: 35px;
+  width: 286px;
+  background-color: white;
+  border-radius: 30px;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 1.3em;
 }
 
 #student {
