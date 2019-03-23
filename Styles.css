@@ -61,5 +61,5 @@ img {
 .sign {
   max-width: 70px;
   max-height: 70px;
-  position: absolute;
+  position: relative;
 }
