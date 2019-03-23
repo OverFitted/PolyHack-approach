@@ -9,3 +9,12 @@ button {
     background-color: Transparent;
     border: none;
 }
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.sign {
+  max-width: 140px;
+  max-height: 140px;
+}
