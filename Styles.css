@@ -5,6 +5,15 @@ html {
     background-size: 1200px 600px;
     margin-left: 50px;
 }
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+   html {
+     background-color: white;
+     background-image: url(polytech.jpg);
+     background-repeat: no-repeat;
+     background-size: 1800px 900px;
+     margin-left: 50px;
+}
+}
 
 button {
     background-color: Transparent;
@@ -16,6 +25,12 @@ img {
   width: 100%;
   background-color: Transparent;
   border: none;
+}
+
+#student {
+  margin-top: -3px;
+  height: 140px;
+  width: 150px;
 }
 
 #sideboard {
@@ -64,4 +79,15 @@ img {
   max-width: 70px;
   max-height: 70px;
   position: absolute;
+}
+
+.lead {
+  max-width: 70px;
+  max-height: 70px;
+  position: absolute;
+}
+
+#lead {
+  top: 10px;
+  left: 10px;
 }
