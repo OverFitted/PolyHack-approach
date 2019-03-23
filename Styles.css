@@ -1,3 +1,5 @@
 html {
-    
+    background-color: grey;
+    background-image: url(polytech.jpg);
+    background-size: 100%;
 }
