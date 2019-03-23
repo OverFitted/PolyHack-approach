@@ -13,6 +13,8 @@ button {
 img {
   height: 100%;
   width: 100%;
+  background-color: Transparent;
+  border: none;
 }
 
 #sideboard {
@@ -21,6 +23,8 @@ img {
   border: 2px dotted silver;
   height: 300px;
   width: 150px;
+  background-color: silver;
+  border-radius: 30px;
 }
 
 #sign1 {
