@@ -2,3 +2,7 @@ html {
   background-color: white;
   background-image: url(https://www.jooomshaper.com/data/out/12/IMG_490652.png);
 }
+
+img {
+  float: left;
+}
