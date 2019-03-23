@@ -19,23 +19,33 @@ img {
   margin-top: 0px;
   margin-left: 0px;
   border: 2px dotted silver;
-  height: 500px;
-  width: 10px;
+  height: 300px;
+  width: 150px;
 }
 
 #sign1 {
-  top: 300px;
-  left: 900px;
+  top: 270px;
+  left: 200px;
 }
 
 #sign2 {
-  top: 400px;
-  left: 800px;
+  top: 380px;
+  left: 350px;
 }
 
 #sign3 {
   top: 200px;
-  left: 870px;
+  left: 350px;
+}
+
+#sign4 {
+  top: 380px;
+  left: 760px;
+}
+
+#sign5 {
+  top: 210px;
+  left: 500px;
 }
 
 .sign {
