@@ -2,7 +2,8 @@ html {
     background-color: white;
     background-image: url(polytech.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1200px 600px;
+    margin-left: 50px;
 }
 
 button {
@@ -19,7 +20,7 @@ img {
 
 #sideboard {
   margin-top: 0px;
-  margin-left: 0px;
+  margin-left: -50px;
   border: 2px dotted silver;
   height: 300px;
   width: 150px;
@@ -61,5 +62,5 @@ img {
 .sign {
   max-width: 70px;
   max-height: 70px;
-  position: relative;
+  position: absolute;
 }
