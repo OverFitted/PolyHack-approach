@@ -25,6 +25,11 @@ html {
   float: left;
 }
 
+button {
+    background-color: Transparent;
+    border: none;
+    outline: none;
+}
 #picture {
   margin-left: 3%;
   margin-top: 2%;
@@ -103,6 +108,17 @@ html {
   margin-top: 5%;
   margin-left: 10%;
   position: relative;
+}
+
+#menu {
+  margin-left: -30px;
+  margin-top: -5px;
+  border: 2px dotted silver;
+  height: 300px;
+  width: 120px;
+  background-color: #CBBDBD;
+  border-radius: 30px;
+  position: absolute;
 }
 
 #achievmentsboard {
@@ -221,4 +237,127 @@ html {
   margin-left: 70px;
   margin-top: 20px;
   float: left;
+}
+
+.sign:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  position: absolute;
+}
+
+.sign {
+  max-width: 70px;
+  max-height: 70px;
+  position: absolute;
+  opacity: 1;
+}
+
+.on-hover{
+	width: 80px;
+	height: 80px;
+	text-align:center;
+	margin-top: 0px;
+  	margin-left: 0px;
+	position: absolute;
+}
+
+.hidden-block{
+	width:300px;
+	height:300px;
+	background:#2BA2DB;
+	color:#fff;
+	font-size:25px;
+	border:3px solid #2BA2DB;
+	padding:20px;
+	margin-top: 305px;
+	margin-left: -3px;
+	text-align:center;
+	opacity:0;
+	transition: 0.5s; 
+	border-radius: 30px;
+	position: absolute;
+}
+
+.on-hover:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+ 	transform: scale(1.2);
+	position: absolute;
+}
+
+.on-hover:hover+.hidden-block{
+	opacity:1;
+	transition: 0.5s;
+}
+
+#lead {
+  top: 25px;
+  left: 6px;
+}
+
+.profile {
+  max-width: 90px;
+  max-height: 90px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: Transparent;
+}
+
+.profile:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  position: absolute;
+}
+
+#profile {
+  top: 110px;
+  left: 6px;
+}
+
+.map {
+  max-width: 90px;
+  max-height: 90px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: Transparent;
+}
+
+.map:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  position: absolute;
+}
+
+#map {
+  top: 190px;
+  left: 5px;
+  position: absolute;
+    height: 100%;
+  width: 100%;
+  background-color: Transparent;
+}
+
+
+#leader {
+  background-color: white;
+  border-radius: 10px;
+  height: 50;
+  width: 300px;
+}
+
+#leadtext {
+  color: black;
+  font-family: Comic Sans MS, sans-serif;
+}
+
+#leadtable {
+  border-radius: 10px;
+  background-color: white;
+  height: 235px;
+  width: 300px;
 }
