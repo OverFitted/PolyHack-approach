@@ -1,2 +1,2 @@
 # Shalnoy python
-PolyHack html site
+PolyHack hackathon site
