@@ -1,2 +1,3 @@
-# Shalnoy python
-PolyHack hackathon site
+# PolyHack
+Our approach to PolyHack 
+PolyHack hackathon website
